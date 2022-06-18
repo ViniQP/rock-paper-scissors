@@ -62,5 +62,10 @@ function rpsRound() {
 
 }
 
+function game() {
+    for (let i = 0; i < 5; i++) {
+        console.log(rpsRound())
+    }
+}
 
-console.log(rpsRound())
+game()
